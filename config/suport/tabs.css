@@ -1,0 +1,80 @@
+
+
+
+#screenTabs {
+	margin-bottom: 5px;
+	float:left;
+	width: 100%;
+	min-height: 1px;
+	background: #ffffff url(../imagens/bg1.gif) repeat-x bottom;
+}
+
+* html #screenTabs { 
+height: 1px;
+}
+
+#tabs {
+	float:left;
+	width:690px;
+	line-height:normal;
+	white-space: nowrap;
+	background: #ffffff url(../imagens/bg1.gif) repeat-x bottom;
+	font-size: 11px;
+}
+
+#tabs ul {
+margin:0;
+padding: 0px 10px 10px 10px;
+list-style:none;
+}
+
+#tabs a {
+	display: block;
+	background: url(../imagens/right.gif) no-repeat right top;
+	padding:6px 15px 4px 4px;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #000000;
+	width:.1em;
+}
+
+#tabs > ul a {
+width: auto;
+}
+
+#tabs a:link,
+#tabs a:hover,
+#tabs a:visited,
+#tabs a:active {
+text-decoration: none;
+color: #66B0EC;
+font-weight: bold;
+}
+
+#tabs li {
+	float:left;
+	background: url(../imagens/left.gif) no-repeat left top;
+	margin:0;
+	padding:0 0 0 15px;
+	border-bottom: solid 1px #71B6ef;
+}
+
+#tabs li#current {
+background-position: 0 -150px;
+}
+
+#tabs #current {
+}
+#tabs #current a {
+background-position: right -150px;
+vertical-align: baseline;
+}
+#tabs #current a:hover,
+#tabs #current a:link,
+#tabs #current a:visited,
+#tabs #current a:active {
+font-weight: bold;
+color: #2F84CB;
+}
+
+

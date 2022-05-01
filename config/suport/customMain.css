@@ -1,0 +1,478 @@
+@import url(buttons.css);
+@import url(tabs.css);
+@import url(double-list-control.css);
+
+body {
+  background: #FFFFFF;
+} 
+
+/* ---------- search  --------- */
+
+* html table.searchArea {
+  margin-top: 15px;
+}
+
+table.searchArea {
+  margin-top: 7px;
+  border-top: 1px dashed #bbbbbb;
+}
+table.searchArea td {
+  padding-top: 10px;
+}
+table.searchAreaDetails td {
+  padding: 2px;
+}
+
+/* ---------- list  --------- */
+
+div.ipmap {
+  height: 400px;
+}
+
+div.massmaildetails {
+  height: 60px;
+}
+
+tr.subTr td {
+  border-top: 1px solid #d3e9fa;
+}
+
+.list {
+margin-left: -2px;
+color: #3b94e0;
+}
+.list a:link,
+.list a:visited,
+.list a:active,
+.list a:hover {
+color: #025FAB;
+}
+
+.list th {
+	border-right: solid 1px #9ac3e6;
+	border-left: solid 2px #ffffff;
+	border-top: solid 1px #9ac3e6;
+	border-bottom: solid 1px #9ac3e6;
+	height: 19px;
+	padding: 0 3px 0 3px;
+	vertical-align: middle;
+	background-color: #DAEDFD;
+	background-image: url(../imagens/list-th-bg-normal.gif);
+	background-repeat: repeat-x;
+}
+.list th a:link,
+.list th a:visited,
+.list th a:active {
+  color: #3b95de;
+  text-decoration: none;
+}
+
+.list th a:hover {
+  text-decoration: underline;
+}
+
+.list th.sort {
+	background-image: url(../imagens/list-th-bg-sort.gif);
+	background-color: #CBE6FD;
+	border-right: solid 1px #599bd4;
+	border-left: solid 2px #ffffff;
+	border-top: solid 1px #599bd4;
+	border-bottom: solid 1px #599bd4;
+}
+
+.list th.sort a:link,
+.list th.sort a:visited,
+.list th.sort a:active,
+.list th.sort a:hover {
+color: #0e71c3;
+}
+
+.list td {
+border-left: solid 2px #ffffff;
+}
+
+.list .subTable td {
+   border: 0px;
+   padding: 3px;
+}
+
+.evenrowbg {
+background-color: #F0F7FD;
+}
+
+
+th {
+  text-align: left;
+}
+
+.editlist .oddrowbg td,
+.editlist .evenrowbg td {
+	background-color: #ffffff;
+	border-bottom: 1px solid #dddddd;	
+}
+
+.editlist .add td {
+	background-color: #dddddd; 
+}
+
+.editlist .over td {
+	background-color: #f0f0f0; 
+}
+.editlist .selected td {
+	background-color: #B3C4F0; 
+}
+
+/* ---------- form  --------- */
+
+.footnote {
+   padding-top: 2px;
+	padding-left: 12px;
+	text-align: left;
+	color: #666666;
+}
+
+legend {
+  color: #0d78ce;
+  font-weight: bold;
+}
+
+fieldset {
+}
+
+.formFields td {
+  text-align: left;
+}
+
+.name,
+.nameError {
+  font-weight: bold; 
+  color: #444444;
+}
+
+.error {
+  background: #ffd9d9;
+}
+
+.error .name {
+  color: #cc0000;
+  background: transparent;
+}
+
+.error .hint {
+  color: #333333;
+}
+
+.required {
+  color: #cc0000;
+}
+
+.formFields td.unlimited {
+  border-left: none;
+}
+
+.formFields td.limit {
+  border-right: none;
+}
+
+.hint {
+  color: #555555;
+}
+
+.formButtons {
+	padding-top: 5px;
+}
+
+input {
+	border-color: expression((this.type=='text'||this.type=='password')?((this.disabled)?'#cac8bb':'#3495e3'):'auto');
+	border-width: expression((this.type=='text'||this.type=='password')?'1px':'auto');
+	border-style: expression((this.type=='text'||this.type=='password')?'solid':'auto');
+	background-color: #ffffff;
+	background-color: expression((this.disabled)?'#f8f8f8':'#ffffff');
+}
+input[type=text],
+input[type=password] {
+	color: #1574C4;
+	border: solid 1px #3495e3;
+}
+#mainCP input[disabled] {
+	color: #cac88bb;
+	border-color: #cac8bb;
+	background-color: #f8f8f8 !important;
+}
+
+/* ---------- misc elements --------- */
+
+.pathbar {
+  background: #ffffff;
+  color: #0E6FC0;
+}
+
+.pathbar a:link,
+.pathbar a:visited {
+  color: #0E6FC0;
+}
+
+.screenTitle {
+  background: #ffffff;
+}
+
+.screenTitle td {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #0E6FC0;
+}
+
+.screenTitle .name,
+.screenTitle b {
+  font-weight: normal; 
+  color: #0D1DE0; 
+}
+
+.specific {
+  font-weight: bold;
+}
+
+.reportIndex a:link,
+.reportIndex a:visited {
+  color: #333333;
+}
+
+.reportSection {
+  border-top: 1px solid #cccccc;
+/*  background: #ffffff; */
+}
+
+td.subTd a:link,
+td.subTd a:visited,
+a.subdomain:link,
+a.subdomain:visited,
+a.domainalias:link,
+a.domainalias:visited,
+a.mailalias:link,
+a.mailalias:visited {
+color: #555555; 
+}
+
+.notdelitems {
+	color: #444444;
+}
+
+code {
+	font-family: Courier, mono;
+	font-size: 10px;
+	color: #444444;
+}
+
+.code {
+	font-family: Courier, mono;
+	font-size: 10px;
+}
+
+hr {
+  color: #cccccc;
+  background-color: #cccccc;
+  height: 1px;
+}
+
+/* ---------- gauge elements --------- */
+
+td.barOverFilled {
+  background: url(../../icons/gauge/fill-over.gif);
+}
+
+td.barFilled {
+  background: url(../../icons/gauge/fill.gif);
+}
+
+td.barEmpty {
+  background: url(../../icons/gauge/empty.gif);
+}
+
+
+/* ---------- common buttons --------- */
+
+.commonButton button,
+.commonButton {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #0E6FC0;
+  background-color: transparent;
+}
+
+.commonButton button {
+  background-image: url(../../images/btn_bg.gif);
+  border: 0 solid white;
+  background-repeat: no-repeat;
+}
+
+.commonButton button[disabled] {
+	background-image: url(../imagens/btn_bg-disabled.gif);
+	color: #999999;
+}  
+
+/* ---------- big icon buttons  --------- */
+.toolsArea .commonButton {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 0 2px;
+	min-height: 32px;
+	cursor: pointer;
+	text-align: center;
+	display: -moz-inline-box;
+	display: inline-block;
+	-moz-box-flex: 400;
+	background-image: url(../imagens/btn_default-button_bg.gif);
+	vertical-align: top;
+	margin-bottom: 12px;
+}
+
+.formArea .toolsArea .commonButton span,
+.toolsArea .commonButton span {
+  display: block;
+  text-align: center;
+  width: 107px;
+  padding-top: 32px;
+  vertical-align: top;
+}
+.screenButtons {
+  word-spacing: -1em;
+}
+
+.screenButtons .commonButton {
+  word-spacing: normal;
+}
+
+.toolsArea span.commonButton {
+  cursor: default;
+  color: #999999;
+  text-decoration: none;
+  margin-right: -3px;
+}
+
+.toolsArea button {
+  display: none;
+}
+
+.toolsArea .screenButtons .commonButton span {
+  background: none;
+}
+
+/* ---------- small icon buttons  --------- */
+
+.controlVisibilityToolbar .misc .commonButton,
+.listArea .buttons .commonButton,
+.dBoxFooterLayout .buttons .commonButton,
+.reportTools .commonButton,
+.uplevel .commonButton {
+  background-image: none;
+  height: 16px;
+  display: inline;
+  display: -moz-inline-box;
+}
+
+.dBox .commonButton button,
+.controlVisibilityToolbar .misc .commonButton button,
+.listArea .buttons .commonButton button,
+.dBoxFooterLayout .buttons .commonButton button,
+.reportTools .commonButton button,
+.uplevel .commonButton button {
+	display: none;
+}
+
+.dBox .commonButton span,
+.controlVisibilityToolbar .misc .commonButton span,
+.listArea .buttons .commonButton span,
+.dBoxFooterLayout .buttons .commonButton span,
+.reportTools .commonButton span,
+.uplevel .commonButton span {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding-left: 20px;
+  height: 16px;
+  text-decoration: underline;
+  cursor: hand;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* ---------- messages  --------- */
+.msgInfo {
+  margin: 10px 0 5px 0;
+  border: 2px solid;
+  background: #ffffff;
+  padding: 10px 32px;
+  background-repeat:  no-repeat;
+  background-position:  10px 11px;
+  border-color: #009933;
+  background-image: url(../../icons/ok.gif);  
+}
+
+.msgInfo .title {
+        color: #009933;
+        font-weight: bold;
+}
+
+.msgWarning {
+	margin: 10px 0 5px 0;
+	border: 2px solid;
+	background: #ffffff;
+	padding: 10px 32px;
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+	border-color: #CC9901;
+	background-image: url(../imagens/att.gif);
+}
+
+.msgWarning .title {
+        color: #CC9901;
+        font-weight: bold;
+}
+
+.msgError {
+	margin: 10px 0 5px 0;
+	border: 2px solid;
+	background: #ffffff;
+	padding: 10px 32px;
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+	border-color: #cc0000;
+	background-image: url(../imagens/off.gif);
+}
+
+.msgError .title {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.codeComment {
+  border: 1px solid #999999;
+  background-color: #ffffff;
+  padding: 8px;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+/*  ----- add new styles here ----- */
+
+.disabledInput {
+  background-color: #d4d0c8;
+}
+
+/* buttons as buttons */
+
+.formArea .commonButton span,
+.formButtons .commonButton span,
+.paging .commonButton span {
+  display: none;
+}
+
+.formButtons button,
+.formArea button,
+.paging .commonButton button {
+  width: 89px;
+  height: 19px;
+  text-align: center;
+}
+

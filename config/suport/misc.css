@@ -1,0 +1,19 @@
+#fldset-power {
+  margin-left: 405px;
+}
+
+fieldset > legend {
+padding-top: 0;
+padding-left: 0;
+margin-left: 0;
+padding-bottom: 2px;
+}
+
+fieldset#fldset-power > legend {
+  padding-left: 30px;
+}
+
+html>body #contexthelp {
+  height: 100px;
+}
+

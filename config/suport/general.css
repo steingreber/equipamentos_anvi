@@ -1,0 +1,105 @@
+body {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+  background-color: #f6f6f6; 
+}
+
+td, th, input, select, textarea, optgroup {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a:link {
+  color: #0240a3;text-decoration:none;
+}
+
+a:visited {
+  color: #0240a3;text-decoration:none;
+}
+
+a:active {
+  color: #000000;text-decoration:none;
+}
+a:hover {text-decoration: underline;}
+img {
+  border: none;
+}
+
+legend {
+  white-space: nowrap;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+/* --- loader ---*/
+
+#loader {
+width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loader td {
+  padding: 3px;
+  background: #ffffff;
+}
+
+#loader p {
+  border: 3px solid #71B6EF;
+  padding: 10px;
+  margin: 0;
+  background: #ffffff;
+}
+
+#loader img {
+  float: left;
+  margin-right: 12px;
+}
+
+#loader strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+#loaderContainer {
+  top: 0;
+  left: 0;
+  	z-index: 1000;
+	height: expression(document.documentElement.scrollHeight+'px');
+}
+
+#loaderContainer td {
+	padding-top: 150px;
+	vertical-align: top;
+	text-align: center;
+	background-image: url(../imagens/semi-transparent.gif);
+}
+
+#loaderContainer td td {
+	padding-top: 3px;
+	text-align: left;
+}
+
+.scrollingBox {
+  overflow: auto;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+table.scrollingBoxBorder {
+ border: 1px solid #8daac4; 
+ background-color: #FFFFFF;
+}
+
+div.scrollingBoxAround {
+ margin-right: 1px;
+}
+
+.noBold {
+  font-weight: normal;
+}

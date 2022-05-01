@@ -1,0 +1,109 @@
+#topLogin, 
+#topCP {
+	background-image: url(../imagens/top-bg-left.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #deeffd;
+	padding: 0;
+	margin: 0;
+}
+.body {
+	height: 49px;
+	background-image: url(../imagens/top-bg-right.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-bottom: solid 1px #71b6ef;
+}
+.body img {
+}
+
+#topTxtBlock {
+  text-align: right;
+  margin-right: 30px;
+  white-space: nowrap;
+  height: 50px;
+  margin-left: 170px;
+}
+
+#topCopyright {
+  text-align: right;
+  display: -moz-inline-box;
+  display: inline-block;
+  margin-right: 9px;
+  margin-top: 11px;
+}
+
+#topTxtBanner {
+	display: -moz-inline-box;
+	display: inline-block;
+	border-left: 1px solid #4598dc;
+	background-image: url(../imagens/vz_top.gif);
+	background-position: 9px 3px;
+	background-repeat: no-repeat;
+	padding-left: 36px;
+	padding-right: 7px;
+	text-align: left;
+}
+
+#topTxtLogout {
+	display: -moz-inline-box;
+	display: inline-block;
+	background-image: url(../imagens/nav_logout.gif);
+	background-position: 9px 6px;
+	background-repeat: no-repeat;
+	padding-left: 11px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	vertical-align: top;
+	margin-top: 10px;
+	text-align: left;
+}
+.withAdvertisement {
+  border-left: 1px solid #4598dc;
+}
+
+#topCopyright a {
+  text-align: right;
+  display: block;
+  white-space: nowrap;
+}
+
+#topCopyright a:link,
+#topCopyright a:active,
+#topCopyright a:visited {
+  text-decoration: none;
+  font-size: 11px;
+  color: #4598dc;
+}
+
+#topTxtBanner a {
+  display: block;
+  white-space: nowrap;
+}
+
+#topTxtBanner a:link,
+#topTxtBanner a:active,
+#topTxtBanner a:visited {
+  text-decoration: none;
+  font-size: 11px;
+  color: #2785d1;
+}
+
+#topTxtLogout a {
+  display: block;
+  white-space: nowrap;
+}
+
+#topTxtLogout a:link,
+#topTxtLogout a:active,
+#topTxtLogout a:visited {
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  color: #2785d1;
+}
+
+.topLogo {
+  position: absolute;
+  left: 0px;
+}

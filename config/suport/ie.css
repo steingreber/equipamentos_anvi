@@ -1,0 +1,20 @@
+﻿/* ---------- big icon buttons  --------- */
+.toolsArea .commonButton {
+  display: inline;
+}
+.formArea .toolsArea .commonButton span,
+.toolsArea .commonButton span {
+  display: inline-block;
+}
+.screenButtons {
+  word-spacing: 0;
+}
+
+/* desktop tabs */
+#dashboard #screenTabs #tabs a {
+display: inline-block;
+}
+#dashboard #screenTabs #tabs ul {
+padding-bottom: 1px;
+}
+

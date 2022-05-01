@@ -1,0 +1,75 @@
+html {
+border-right: solid 1px #71b6ef;
+}
+
+body {
+background-color: #add7f9;
+}
+
+.navOpened .titleText,
+.navClosed .titleText {
+color: #0F5FAC;
+font-weight: bold;
+}
+
+.tree a:link,
+.tree a:hover,
+.tree a:visited,
+.tree a:active{
+color: #025FAB;
+}
+
+.navClosed .navTitle,
+.navClosed .navTitleOver{
+border-bottom: solid 1px #0367BB;
+}
+
+#contexthelp {
+  font-size: 11px;
+  color: #555555;
+  text-align: left;
+  padding-top: 5px;
+  min-height: 100px;
+  margin: 0 0 0 13px;
+  height:100px;
+  border-top: 1px solid #A7B8EB;
+}
+
+html>body #contexthelp {
+  height: auto;
+}
+
+#userInfo {
+  text-align: left;
+  padding-top: 2px;
+  margin: 0 15px 0 10px;
+  color: #555555;
+}
+
+#userInfo .name {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----- powered by GNove ------ */
+
+#poweredBy a:link,
+#poweredBy a:visited,
+#copyright a:link,
+#copyright a:visited {
+  text-decoration: none;
+  font-size: 11px;
+color: #4483B8;
+  white-space: nowrap;
+}
+
+#poweredBy {
+   padding-bottom: 5px;
+	border-bottom: 1px solid #4483B8;
+	vertical-align: middle;
+}
+
+#copyright {
+  margin: 5px 0;
+}
+

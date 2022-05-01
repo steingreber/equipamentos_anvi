@@ -1,0 +1,361 @@
+#dashboard {
+padding-right: 10px;
+min-width: 760px;
+clear: both;
+}
+
+.dLayout {
+table-layout: fixed;
+border-collapse: collapse;
+}
+
+.dashboardColumn {
+width: 50%;
+width: expression(document.body.clientWidth>780?'50%':'380px');
+vertical-align: top;
+padding: 0;
+}
+
+.dBox {
+margin: 10px 0 0 10px;
+}
+.hide .dBoxContent,
+.hide .dBoxFooterLayout {
+display: none;
+}
+.dBox.close {
+display: none;
+}
+.dBoxHeaderLayout {
+	height: 21px;
+	padding-left: 3px;
+	background: transparent url(../imagens/dBox-header-left.gif) no-repeat top left;
+	cursor: pointer;
+}
+.dBoxHeaderArea {
+	height: 21px;
+	overflow: hidden;
+	background: transparent url(../imagens/dBox-header-right.gif) no-repeat top right;
+}
+.dBoxFooterArea td,
+.dBoxHeaderArea td {
+padding: 0 5px;
+white-space: nowrap;
+}
+.dBoxHeaderArea .main {
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #0E4878;
+font-weight: bold;
+}
+.dBoxHeaderArea .misc {
+}
+.dBox .dBoxFooterLayout .commonButton {
+color: #368ED6;
+}
+.dBoxFooterLayout {
+height: 27px;
+overflow: hidden;
+border-left: solid 1px #6BB3F5;
+border-right: solid 1px #6BB3F5;
+border-bottom: solid 1px #6BB3F5;
+}
+.dBoxContentArea {
+float: left;
+width: 100%;
+}
+.dBoxContent {
+border-left: solid 1px #6BB3F5;
+border-right: solid 1px #6BB3F5;
+padding: 10px;
+background-color: #ffffff;
+}
+.dBoxFooterArea {
+	background: transparent url(../imagens/dBox-footer-bg.gif) repeat-x;
+	height: 27px;
+	overflow: hidden;
+}
+.wrapper {
+clear: both;
+height: 0;
+overflow: hidden;
+}
+
+#dBox-info .dBoxContent td,
+#dBox-statistics .dBoxContent td {
+  vertical-align: top;
+}
+
+.dBoxContent .list td {
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.dBoxContent .list {
+table-layout: fixed;
+width: 100%;
+}
+
+.dBoxContent .icon {
+width: 24px;
+}
+
+/* messages */
+
+#dashboard .msgInfo, 
+#dashboard .msgWarning,
+#dashboard .msgError {
+  margin-left: 10px;
+}
+
+/* buttons */
+
+.dBox .buttons {
+margin: 0;
+}
+.dBox .commonButton {
+background-repeat: no-repeat !important;
+}
+
+#dashboard .dBox .dBoxHeaderArea .commonButton button {
+display: none;
+}
+#dashboard .dBoxHeaderArea .commonButton span {
+visibility: hidden;
+background-image: none;
+display: block;
+width: 17px;
+height: 17px;
+padding: 0;
+overflow: hidden;
+}
+#dashboard .dBoxHeaderArea .commonButton {
+width: 17px !important;
+height: 17px !important;
+display: inline-block;
+display: -moz-inline-box;
+background-position: 0 0;
+background-repeat: no-repeat !important;
+padding: 0;
+color: #106DC0;
+}
+#dashboard .show .dBoxHeaderArea #bid-show-dBox {
+display: none;
+}
+#dashboard .hide .dBoxHeaderArea #bid-hide-dBox {
+display: none;
+}
+#dashboard .dBoxContent .commonButton,
+#dashboard .dBoxFooterArea .commonButton {
+background-image: none !important;
+}
+
+/* tasks */
+
+.taskBoxArea .taskBox span {
+  display: block;
+  margin: 0 10px 0 42px;
+  -moz-box-flex: 3;
+}
+.taskBoxArea span.taskBox {
+  margin: 0px;
+  padding: 0 0 10px 0;
+  width: 48%;
+  display:-moz-inline-box;
+  display: inline-block;
+  vertical-align: top;
+}
+.taskBox {
+	background-repeat: no-repeat;
+	background-image: url(../imagens/btn_default-button_bg.gif);
+}
+.taskTitle {
+  font-weight: bold;
+}
+.taskTitle a,
+.taskTitle a:visited,
+.taskTitle a:hover {
+color: #116DB8;
+}
+.taskDesc {
+}
+.taskLink a {
+	display: block;
+	padding-left: 10px;
+	background-image: url(../imagens/taskLink-bg.gif);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+}
+.taskLink a,
+.taskLink a:visited {
+color: #0272cc;
+text-decoration: underline;
+}
+
+/* search bar */
+
+#dashboard .dSearch .main {
+vertical-align: middle;
+white-space: nowrap;
+padding-bottom: 10px;
+}
+
+#dashboard .buttons .main select,
+#dashboard .buttons .main input {
+vertical-align: middle;
+}
+
+.dSearchSelect {
+margin-right: 7px;
+}
+
+/* tabs */
+
+.dBoxContent #tabs {
+width: 100%;
+}
+
+.dBox #screenTabs {
+margin-bottom: 10px;
+}
+
+#dashboard #tabs li {
+display: inline;
+}
+#dashboard #screenTabs #tabs li {
+display: inline-block;
+display: -moz-inline-box;
+padding-left: 9px;
+float: none;
+}
+#dashboard #screenTabs #tabs a {
+float: none;
+text-align: center;
+padding-right: 7px;
+padding-left: 2px;
+width: auto;
+}
+
+#dashboard #tabs {
+padding-top: 0;
+}
+
+#dashboard #screenTabs #tabs ul {
+float: none;
+white-space: nowrap;
+padding: 0 5px 0 5px;
+}
+
+/* product news */
+
+.newsContainer {
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #fffdf4;
+  table-layout: fixed;
+}
+.newsContainer+.newsContainer {
+  margin-top: -10px;
+}
+
+table.col2 td {
+  width: 50%;
+}
+
+table.col3 td {
+  width: 33%;
+}
+
+table.col3 td.first {
+  width: 34%;
+}
+
+.newsBlockLayout {
+  vertical-align: top;
+  border-top: solid 1px #eecd36;
+  border-bottom: solid 1px #eecd36;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.newsBlock {
+  padding: 0 10px 10px 10px;
+}
+
+* html .newsRow {
+  position: relative;
+}
+
+* html .newsBlock {
+  position: relative;
+  padding: 0 10px;
+  z-index: 400;
+}
+
+* html .newsBlockLayout {
+  border-style: none;
+  background-image: none !important;
+  background-color: transparent;
+}
+
+* html .newsBlockArea {
+  background-color: #fff;
+  margin: 10px 10px -32757px 0px;
+  padding-bottom: 32767px;
+  border-top: solid 1px #eecd36;
+  overflow: hidden;
+}
+
+* html .first .newsBlockArea {
+  margin-left: 10px;
+}
+
+* html .newsBlockFooter {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  border-bottom: solid 1px #eecd36;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.newsTitle {
+  color: #f60;
+  margin: 4px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.newsLinks {
+  margin-top: 4px;
+}
+
+#dBox-news_articles .dBoxContent .wrapper {
+  display: none;
+}
+* html #dBox-news_articles .dBoxContent {
+  background-color: #fffdf4;
+  padding-bottom: 10px;
+}
+#dBox-news_articles .dBoxContent {
+  padding: 0 0 0 0;
+  border-bottom: dashed 1px #6BB3F5;
+  overflow: hidden;
+}
+
+.newsHeader .main {
+  color: #000;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.newsHeader .misc {
+  padding-right: 10px;
+}
+.newsHeader {
+	margin-top: 0;
+	height: 29px;
+	background-image: url(../imagens/news-header-bg.gif);
+	background-repeat: repeat-x;
+	border-bottom: dashed 1px #6BB3F5;
+}
+

@@ -1,0 +1,135 @@
+body {
+	padding: 0 12px;
+	margin: 0;
+	background-image: url(../imagens/bg_left_frame.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.navOpened .tree table table,
+.navOpened td td {
+background-image: none;
+}
+
+.navOpened .navTitle {
+}
+
+.navOpened .navTitleOver td,
+.navClosed .navTitleOver td,
+.navOpened .navTitle td,
+.navClosed .navTitle td {
+height: 20px;
+}
+
+.navOpened .navTitleOver,
+.navClosed .navTitleOver,
+.navOpened .navTitle,
+.navClosed .navTitle {
+cursor: hand;
+cursor: pointer;
+}
+
+.navOpened .tree {
+	background-image: url(../imagens/tree-right.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	padding-right: 12px;
+}
+
+.navOpened .tree table {
+	background-image: url(../imagens/tree-left.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	width: 100%;
+}
+.navOpened .titleLeft,
+.navClosed .titleLeft {
+	width: 10px;
+	background-image: url(../imagens/title-left.gif);
+	background-repeat: no-repeat;
+}
+
+.navOpened .titleText,
+.navClosed .titleText {
+	background-image: url(../imagens/title-bg.gif);
+	background-repeat: no-repeat;
+	width: auto;
+}
+
+.navOpened,
+.navClosed {
+margin-top: 23px;
+}
+
+.navOpened .titleHandle,
+.navClosed .titleHandle {
+	width: 17px;
+	background-image: url(../imagens/title-handle.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.navOpened .navTitleOver td,
+.navOpened .navTitle td {
+background-position: 0 0;
+padding-bottom: 10px;
+}
+
+.navClosed .navTitleOver td,
+.navClosed .navTitle td {
+background-position: 0 -200px;
+}
+
+.navClosed .tree {
+display: none;
+}
+
+.navOpened .titleRight,
+.navClosed .titleRight {
+	width: 8px;
+	background-image: url(../imagens/title-right.gif);
+	background-repeat: no-repeat;
+}
+
+.navTitleOver img,
+.navTitle img {
+display: none;
+}
+
+.navTitleOver,
+.navTitle {
+width: 100%;
+}
+
+.node,
+.nodeActive {
+margin-bottom: 9px;
+}
+
+.node .nodeImage,
+.nodeActive .nodeImage {
+width: 33px;
+vertical-align: middle;
+text-align: right;
+padding-left: 0;
+}
+
+.node td,
+.nodeActive td {
+width: auto;
+padding-left: 5px;
+}
+
+/* ---- add new styles here ---- */
+
+.navOpened .tree #contexthelp {
+table-layout: fixed;
+width: 85%;
+}
+
+#contexthelp {
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+

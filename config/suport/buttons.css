@@ -1,0 +1,1665 @@
+﻿#bid-reboot {
+  background-image: url(../../images/btn_reboot_bg.gif);
+}
+#bid-reboot-disabled {
+  background-image: url(../../images/btn_reboot-disabled_bg.gif);
+}
+#bid-shutdown {
+  background-image: url(../../images/btn_shutdown_bg.gif);
+}
+#bid-shutdown-disabled {
+  background-image: url(../../images/btn_shutdown-disabled_bg.gif);
+}
+#bid-ip-aliasing {
+  background-image: url(../../images/btn_ip-aliasing_bg.gif);
+}
+#bid-ip-aliasing-disabled {
+  background-image: url(../../images/btn_ip-aliasing-disabled_bg.gif);
+}
+#bid-system-time {
+  background-image: url(../../images/btn_system-time_bg.gif);
+}
+#bid-system-time-disabled {
+  background-image: url(../../images/btn_system-time-disabled_bg.gif);
+}
+#bid-statistics {
+  background-image: url(../../images/btn_statistics_bg.gif);
+}
+#bid-statistics-disabled {
+  background-image: url(../../images/btn_statistics-disabled_bg.gif);
+}
+#bid-support {
+  background-image: url(../../images/btn_support_bg.gif);
+}
+#bid-support-disabled {
+  background-image: url(../../images/btn_support-disabled_bg.gif);
+}
+#bid-key-info {
+  background-image: url(../../images/btn_key-info_bg.gif);
+}
+#bid-key-info-disabled {
+  background-image: url(../../images/btn_key-info-disabled_bg.gif);
+}
+#bid-comp-info {
+  background-image: url(../../images/btn_comp-info_bg.gif);
+}
+#bid-comp-info-disabled {
+  background-image: url(../../images/btn_comp-info-disabled_bg.gif);
+}
+#bid-mail {
+  background-image: url(../../images/btn_mail_bg.gif);
+}
+#bid-mail-disabled {
+  background-image: url(../../images/btn_mail-disabled_bg.gif);
+}
+#bid-dns {
+  background-image: url(../../images/btn_dns_bg.gif);
+}
+#bid-dns-disabled {
+  background-image: url(../../images/btn_dns-disabled_bg.gif);
+}
+#bid-restart-services {
+  background-image: url(../../images/btn_restart-services_bg.gif);
+}
+#bid-restart-services-disabled {
+  background-image: url(../../images/btn_restart-services-disabled_bg.gif);
+}
+#bid-databases {
+  background-image: url(../../images/btn_databases_bg.gif);
+}
+#bid-databases-disabled {
+  background-image: url(../../images/btn_databases-disabled_bg.gif);
+}
+
+#bid-sqlservers,
+#bid-database-servers {
+  background-image: url(../../images/btn_database-servers_bg.gif);
+}
+#bid-sqlservers-disabled,
+#bid-database-servers-disabled {
+  background-image: url(../../images/btn_database-servers-disabled_bg.gif);
+}
+#bid-database-server-add {
+  background-image: url(../../images/btn_database-server-add_bg.gif);
+}
+#bid-database-server-add-disabled {
+  background-image: url(../../images/btn_database-server-add-disabled_bg.gif);
+}
+#bid-configure-odbc {
+  background-image: url(../../images/btn_configure-odbc_bg.gif);
+}
+#bid-configure-odbc-disabled {
+  background-image: url(../../images/btn_configure-odbc-disabled_bg.gif);
+}
+#bid-logo {
+  background-image: url(../../images/btn_logo_bg.gif);
+}
+#bid-logo-disabled {
+  background-image: url(../../images/btn_logo-disabled_bg.gif);
+}
+#bid-session-setup {
+  background-image: url(../../images/btn_session-setup_bg.gif);
+}
+#bid-session-setup-disabled {
+  background-image: url(../../images/btn_session-setup-disabled_bg.gif);
+}
+#bid-certificates,
+#bid-cert-view {
+  background-image: url(../../images/btn_certificates_bg.gif);
+}
+#bid-certificates-disabled {
+  background-image: url(../../images/btn_certificates-disabled_bg.gif);
+}
+#bid-preferences,
+#bid-domain-rename {
+  background-image: url(../../images/btn_preferences_bg.gif);
+}
+#bid-preferences-disabled,
+#bid-domain-rename-disabled {
+  background-image: url(../../images/btn_preferences-disabled_bg.gif);
+}
+#bid-add-services {
+  background-image: url(../../images/btn_add-services_bg.gif);
+}
+#bid-add-services-disabled {
+  background-image: url(../../images/btn_add-services-disabled_bg.gif);
+}
+#bid-notifications {
+  background-image: url(../../images/btn_notifications_bg.gif);
+}
+#bid-notifications-disabled {
+  background-image: url(../../images/btn_notifications-disabled_bg.gif);
+}
+#bid-client-templates {
+  background-image: url(../../images/btn_client-templates_bg.gif);
+}
+#bid-client-templates-disabled {
+  background-image: url(../../images/btn_client-templates-disabled_bg.gif);
+}
+#bid-domain-templates {
+  background-image: url(../../images/btn_domain-templates_bg.gif);
+}
+#bid-domain-templates-disabled {
+  background-image: url(../../images/btn_domain-templates-disabled_bg.gif);
+}
+#bid-action-log {
+  background-image: url(../../images/btn_action-log_bg.gif);
+}
+#bid-action-log-disabled {
+  background-image: url(../../images/btn_action-log-disabled_bg.gif);
+}
+#bid-crontab-win,
+#bid-crontab-unix {
+  background-image: url(../../images/btn_crontab-win_bg.gif);
+}
+#bid-crontab-unix-disabled,
+#bid-crontab-win-disabled {
+  background-image: url(../../images/btn_crontab-win-disabled_bg.gif);
+}
+#bid-skeleton {
+  background-image: url(../../images/btn_skeleton_bg.gif);
+}
+#bid-skeleton-disabled {
+  background-image: url(../../images/btn_skeleton-disabled_bg.gif);
+}
+#bid-custom-buttons {
+  background-image: url(../../images/btn_custom-buttons_bg.gif);
+}
+#bid-custom-buttons-disabled {
+  background-image: url(../../images/btn_custom-buttons-disabled_bg.gif);
+}
+#bid-edit {
+  background-image: url(../imagens/icons/btn_edit_bg.gif);
+}
+#bid-edit-disabled {
+  background-image: url(../../images/btn_edit-disabled_bg.gif);
+}
+#bid-change-passwd {
+  background-image: url(../../images/btn_change-passwd_bg.gif);
+}
+#bid-change-passwd-disabled {
+  background-image: url(../../images/btn_change-passwd-disabled_bg.gif);
+}
+#bid-access {
+  background-image: url(../../images/btn_access_bg.gif);
+}
+#bid-access-disabled {
+  background-image: url(../../images/btn_access-disabled_bg.gif);
+}
+#bid-new-client,
+#bid-maillist-member-new {
+  background-image: url(../../images/btn_new-client_bg.gif);
+}
+#bid-new-client-disabled,
+#bid-maillist-member-new-disabled {
+  background-image: url(../../images/btn_new-client-disabled_bg.gif);
+}
+#bid-extras {
+  background-image: url(../../images/btn_extras_bg.gif);
+}
+#bid-extras-disabled {
+  background-image: url(../../images/btn_extras-disabled_bg.gif);
+}
+#bid-enable {
+  background-image: url(../../images/btn_enable_bg.gif);
+}
+#bid-disable {
+  background-image: url(../../images/btn_disable_bg.gif);
+}
+#bid-enable-disabled {
+  background-image: url(../../images/btn_enable-disabled_bg.gif);
+}
+#bid-disable-disabled {
+  background-image: url(../../images/btn_disable-disabled_bg.gif);
+}
+
+#bid-report {
+  background-image: url(../../images/btn_report_bg.gif);
+}
+#bid-report-disabled {
+  background-image: url(../../images/btn_report-disabled_bg.gif);
+}
+#bid-permissions {
+  background-image: url(../../images/btn_permissions_bg.gif);
+}
+#bid-permissions-disabled {
+  background-image: url(../../images/btn_permissions-disabled_bg.gif);
+}
+#bid-limits {
+  background-image: url(../../images/btn_limits_bg.gif);
+}
+#bid-limits-disabled {
+  background-image: url(../../images/btn_limits-disabled_bg.gif);
+}
+#bid-ip-pool {
+  background-image: url(../../images/btn_ip-pool_bg.gif);
+}
+#bid-ip-pool-disabled {
+  background-image: url(../../images/btn_ip-pool-disabled_bg.gif);
+}
+#bid-new-domain {
+  background-image: url(../../images/btn_new-domain_bg.gif);
+}
+#bid-new-domain-disabled {
+  background-image: url(../../images/btn_new-domain-disabled_bg.gif);
+}
+#bid-register,
+#bid-register {
+  background-image: url(../../images/btn_register_bg.gif);
+}
+#bid-register-disabled, 
+#bid-register-disabled {
+  background-image: url(../../images/btn_register-disabled_bg.gif);
+}
+#bid-manage {
+  background-image: url(../../images/btn_manage_bg.gif);
+}
+#bid-manage-disabled {
+  background-image: url(../../images/btn_manage-disabled_bg.gif);
+}
+#bid-domain-user {
+  background-image: url(../../images/btn_domain-user_bg.gif);
+}
+#bid-domain-user-disabled {
+  background-image: url(../../images/btn_domain-user-disabled_bg.gif);
+}
+#bid-backup {
+  background-image: url(../../images/btn_backup_bg.gif);
+}
+#bid-backup-disabled {
+  background-image: url(../../images/btn_backup-disabled_bg.gif);
+}
+#bid-maillists,
+#bid-configure-maillists {
+  background-image: url(../../images/btn_maillists_bg.gif);
+}
+#bid-maillists-disabled,
+#bid-configure-maillists-disabled {
+  background-image: url(../../images/btn_maillists-disabled_bg.gif);
+}
+#bid-web-apps {
+  background-image: url(../../images/btn_web-apps_bg.gif);
+}
+#bid-web-apps-disabled {
+  background-image: url(../../images/btn_web-apps-disabled_bg.gif);
+}
+
+#bid-delete {
+  background-image: url(../../images/btn_delete_bg.gif);
+}
+#bid-delete-disabled {
+  background-image: url(../../images/btn_delete-disabled_bg.gif);
+}
+#bid-web-users {
+  background-image: url(../../images/btn_web-users_bg.gif);
+}
+#bid-web-users-disabled {
+  background-image: url(../../images/btn_web-users-disabled_bg.gif);
+}
+#bid-subdomains {
+  background-image: url(../../images/btn_subdomains_bg.gif);
+}
+#bid-subdomains-disabled {
+  background-image: url(../../images/btn_subdomains-disabled_bg.gif);
+}
+#bid-directories {
+  background-image: url(../../images/btn_directories_bg.gif);
+}
+#bid-directories-disabled {
+  background-image: url(../../images/btn_directories-disabled_bg.gif);
+}
+#bid-anonymous-ftp {
+  background-image: url(../../images/btn_anonymous-ftp_bg.gif);
+}
+#bid-anonymous-ftp-disabled {
+  background-image: url(../../images/btn_anonymous-ftp-disabled_bg.gif);
+}
+#bid-log-manager {
+  background-image: url(../../images/btn_log-manager_bg.gif);
+}
+#bid-log-manager-disabled {
+  background-image: url(../../images/btn_log-manager-disabled_bg.gif);
+}
+#bid-file-manager {
+  background-image: url(../../images/btn_file-manager_bg.gif);
+}
+#bid-file-manager-disabled {
+  background-image: url(../../images/btn_file-manager-disabled_bg.gif);
+}
+#bid-fp-webadmin {
+  background-image: url(../../images/btn_fp-webadmin_bg.gif);
+}
+#bid-fp-webadmin-disabled {
+  background-image: url(../../images/btn_fp-webadmin-disabled_bg.gif);
+}
+#bid-fp-ssl-webadmin {
+  background-image: url(../../images/btn_fp-ssl-webadmin_bg.gif);
+}
+#bid-fp-ssl-webadmin-disabled {
+  background-image: url(../../images/btn_fp-ssl-webadmin-disabled_bg.gif);
+}
+#bid-traffic {
+  background-image: url(../../images/btn_traffic_bg.gif);
+}
+#bid-traffic-disabled {
+  background-image: url(../../images/btn_traffic-disabled_bg.gif);
+}
+
+#bid-summary-report {
+  background-image: url(../../images/btn_summary-report_bg.gif);
+}
+#bid-cf-configure {
+  background-image: url(../../images/btn_cf-configure_bg.gif);
+}
+#bid-cf-configure-disabled {
+  background-image: url(../../images/btn_cf-configure-disabled_bg.gif);
+}
+#bid-site-apppkgs,
+#bid-site-apps {
+  background-image: url(../../images/btn_site-apppkgs_bg.gif);
+}
+#bid-site-apppkgs-disabled,
+#bid-site-apps-disabled {
+  background-image: url(../../images/btn_site-apppkgs-disabled_bg.gif);
+}
+#bid-site-apppool {
+  background-image: url(../../images/btn_siteapp-pool_bg.gif);
+}
+#bid-site-apppool-disabled {
+  background-image: url(../../images/btn_siteapp-pool-disabled_bg.gif);
+}
+#bid-spamassassin {
+  background-image: url(../../images/btn_spam-assassin_bg.gif);
+}
+#bid-spamassassin-disabled {
+  background-image: url(../../images/btn_spam-assassin-disabled_bg.gif);
+}
+#bid-site-builder {
+  background-image: url(../../images/btn_sitebuilder_bg.gif);
+}
+#bid-site-builder-disabled {
+  background-image: url(../../images/btn_sitebuilder-disabled_bg.gif);
+}
+
+#bid-report-new {
+  background-image: url(../../images/btn_report-new_bg.gif);
+}
+#bid-maillist-new {
+  background-image: url(../../images/btn_maillist-new_bg.gif);
+}
+#bid-maillist-new-disabled {
+  background-image: url(../../images/btn_maillist-new-disabled_bg.gif);
+}
+#bid-ftp-user-add,
+#bid-add-client,
+#bid-db-usr-new,
+#bid-web-user-add,
+#bid-pd-user-new {
+  background-image: url(../../images/btn_user-new_bg.gif);
+}
+
+#bid-ftp-user-add-disabled,
+#bid-web-user-add-disabled,
+#bid-add-client-disabled {
+  background-image: url(../../images/btn_user-new-disabled_bg.gif);
+}
+
+
+#bid-subdomain-new{
+  background-image: url(../../images/btn_subdomain-new_bg.gif);
+}
+#bid-task-new  {
+  background-image: url(../../images/btn_task-new_bg.gif);
+}
+
+#bid-cert-add {
+  background-image: url(../../images/btn_cert-add_bg.gif);
+}
+
+#bid-server-add {
+  background-image: url(../../images/btn_server-add_bg.gif);
+}
+
+#bid-server-add-disabled {
+  background-image: url(../../images/btn_server-add-disabled_bg.gif);
+}
+
+#bid-network-add,
+#bid-ip-add {
+  background-image: url(../../images/btn_ip-add_bg.gif);
+}
+
+#bid-ip-add-disabled {
+  background-image: url(../../images/btn_ip-add-disabled_bg.gif);
+}
+
+#bid-dom-tmpl-add {
+  background-image: url(../../images/btn_dom_tmpl-add_bg.gif);
+}
+
+#bid-cl-tmpl-add {
+  background-image: url(../../images/btn_cl_tmpl-add_bg.gif);
+}
+
+#bid-custom-button-new {
+  background-image: url(../../images/btn_custom-button-new_bg.gif);
+}
+
+#bid-mail-name-add,
+#bid-mail-group-add  {
+  background-image: url(../../images/btn_mail-name-add_bg.gif);
+}
+
+#bid-mail-name-add-disabled  {
+  background-image: url(../../images/btn_mail-name-add-disabled_bg.gif);
+}
+
+
+#bid-mail-alias-add  {
+  background-image: url(../../images/btn_mail-alias-add_bg.gif);
+}
+
+#bid-pd-new {
+  background-image: url(../../images/btn_pd-new_bg.gif);
+}
+
+#bid-mail-resp-add   {
+  background-image: url(../../images/btn_mail-resp-add_bg.gif);
+}
+
+#bid-switch,
+#bid-reread-ip {
+  background-image: url(../../images/btn_refresh_bg.gif);
+}
+#bid-switch-disabled {
+  background-image: url(../../images/btn_refresh-disabled_bg.gif);
+}
+#bid-webadmin {
+  background-image: url(../../images/btn_configure-odbc_bg.gif);
+}
+#bid-webadmin-disabled {
+  background-image: url(../../images/btn_configure-odbc-disabled_bg.gif);
+}
+
+#bid-mail-redirect {
+  background-image: url(../../images/btn_mail-redirects_bg.gif);
+}
+
+#bid-mail-group {
+  background-image: url(../../images/btn_mail-group_bg.gif);
+}
+
+#bid-mail-groups {
+  background-image: url(../../images/btn_mail-groups_bg.gif);
+}
+
+#bid-mail-responders {
+  background-image: url(../../images/btn_mail-responders_bg.gif);
+}
+
+#bid-mail-spamfilter {
+  background-image: url(../../images/btn_mail-spamfilter_bg.gif);
+}
+
+#bid-mail-spamfilter-disabled {
+  background-image: url(../../images/btn_mail-spamfilter-disabled_bg.gif);
+}
+
+#bid-mail-resp-files {
+  background-image: url(../../images/btn_mail-resp-files_bg.gif);
+}
+
+#bid-web-stats-ssl {
+  background-image: url(../../images/btn_web-stats-ssl_bg.gif);
+}
+#bid-web-stats-ssl-disabled {
+  background-image: url(../../images/btn_web-stats-ssl-disabled_bg.gif);
+}
+#bid-web-stats {
+  background-image: url(../../images/btn_web-stats_bg.gif);
+}
+#bid-web-stats-disabled {
+  background-image: url(../../images/btn_web-stats-disabled_bg.gif);
+}
+#bid-anonftp-stats {
+  background-image: url(../../images/btn_anonftp-stats_bg.gif);
+}
+#bid-anonftp-stats-disabled { 
+  background-image: url(../../images/btn_anonftp-stats-disabled_bg.gif);
+}
+#bid-ftp-stats { 
+  background-image: url(../../images/btn_ftp-stats_bg.gif);
+}
+#bid-ftp-stats-disabled { 
+  background-image: url(../../images/btn_ftp-stats-disabled_bg.gif);
+}
+#bid-traffic-history { 
+  background-image: url(../../images/btn_traffic-history_bg.gif);
+}
+#bid-traffic-history-disabled { 
+  background-image: url(../../images/btn_traffic-history-disabled_bg.gif);
+}
+ 
+#bid-tts-cats { 
+  background-image: url(../../images/btn_tts-cats_bg.gif);
+}
+#bid-tts-cats-disabled { 
+  background-image: url(../../images/btn_tts-cats-disabled_bg.gif);
+}
+#bid-tts-priorities { 
+  background-image: url(../../images/btn_tts-priorities_bg.gif);
+}
+#bid-tts-priorities-disabled { 
+  background-image: url(../../images/btn_tts-priorities-disabled_bg.gif);
+}
+#bid-tts-queues { 
+  background-image: url(../../images/btn_tts-queues_bg.gif);
+}
+#bid-tts-queues-disabled { 
+  background-image: url(../../images/btn_tts-queues-disabled_bg.gif);
+}
+#bid-add-new-queue  { 
+  background-image: url(../../images/btn_add-new-queue_bg.gif);
+}
+#bid-add-new-queue-disabled  { 
+  background-image: url(../../images/btn_add-new-queue-disabled_bg.gif);
+}
+#bid-fp-mail-settings,
+#bid-tts-mail-gate { 
+  background-image: url(../../images/btn_tts-mail-gate_bg.gif);
+}
+#bid-tts-mail-gate-disabled { 
+  background-image: url(../../images/btn_tts-mail-gate-disabled_bg.gif);
+} 
+#bid-tts-general-config { 
+  background-image: url(../../images/btn_tts-general-config_bg.gif);
+}
+#bid-tts-general-config-disabled { 
+  background-image: url(../../images/btn_tts-general-config-disabled_bg.gif);
+} 
+#bid-add-new-category { 
+  background-image: url(../../images/btn_tts-new-cat_bg.gif);
+}
+#bid-add-new-category-disabled { 
+  background-image: url(../../images/btn_tts-new-cat-disabled_bg.gif);
+} 
+#bid-add-new-priority { 
+  background-image: url(../../images/btn_tts-new-priority_bg.gif);
+}
+#bid-add-new-priority-disabled { 
+  background-image: url(../../images/btn_tts-new-priority-disabled_bg.gif);
+} 
+#bid-tts-global-list { 
+  background-image: url(../../images/btn_tts-global-list_bg.gif);
+}
+#bid-tts-global-list-disabled { 
+  background-image: url(../../images/btn_tts-global-list-disabled_bg.gif);
+} 
+
+#bid-download,
+#bid-skin-download,
+#bid-additional-key-download,
+#bid-key-download,
+#bid-additional-key-download { 
+  background-image: url(../../images/btn_download_bg.gif);
+} 
+
+#bid-download-disabled,
+#bid-skin-download-disabled,
+#bid-additional-key-download-disabled,
+#bid-key-download-disabled,
+#bid-additional-key-download-disabled { 
+  background-image: url(../../images/btn_download-disabled_bg.gif);
+} 
+
+#bid-mail-mailbox { 
+  background-image: url(../../images/btn_mail-mailbox_bg.gif);
+} 
+
+#bid-add-new-ticket { 
+  background-image: url(../../images/btn_add-new-ticket_bg.gif);
+} 
+
+#bid-add-new-ticket-disabled { 
+  background-image: url(../../images/btn_add-new-ticket-disabled_bg.gif);
+} 
+
+#bid-site-app-add,
+#bid-starterkit-add,
+#bid-server-package-add,
+#bid-web-app-new,
+#bid-site-app-pkg-new,
+#bid-server-app-add {
+  background-image: url(../../images/btn_site-app-add_bg.gif);
+}
+
+#bid-site-app-add-disabled,
+#bid-starterkit-add-disabled,
+#bid-server-package-add-disabled,
+#bid-web-app-new-disabled,
+#bid-site-app-pkg-new-disabled,
+#bid-server-app-add-disabled {
+  background-image: url(../../images/btn_site-app-add-disabled_bg.gif);
+}
+
+#bid-repair-ip {
+  background-image: url(../../images/btn_repair-ip_bg.gif);
+}
+
+#bid-repair-ip-disabled {
+  background-image: url(../../images/btn_repair-ip-disabled_bg.gif);
+}
+
+#bid-spamassassin-train {
+  background-image: url(../../images/btn_spamassassin-train_bg.gif);
+}
+
+#bid-logrotation {
+  background-image: url(../../images/btn_logrotation_bg.gif);
+}
+
+#bid-logrotation-disabled {
+  background-image: url(../../images/btn_logrotation-disabled_bg.gif);
+}
+
+#bid-tts-tickets-all {
+  background-image: url(../../images/btn_tts-tickets-all_bg.gif);
+}
+
+#bid-tts-tickets-allopened {
+  background-image: url(../../images/btn_tts-tickets-allopened_bg.gif);
+}
+
+#bid-tts-tickets-new {
+  background-image: url(../../images/btn_tts-tickets-new_bg.gif);
+}
+
+#bid-tts-tickets-reopened {
+  background-image: url(../../images/btn_tts-tickets-reopened_bg.gif);
+}
+
+#bid-tts-tickets-closed {
+  background-image: url(../../images/btn_tts-tickets-closed_bg.gif);
+}
+
+#bid-make-dump {
+  background-image: url(../../images/btn_make-dump_bg.gif);
+}
+
+#bid-db-new {
+  background-image: url(../../images/btn_db-new_bg.gif);
+}
+
+#bid-db-new-disabled {
+  background-image: url(../../images/btn_db-new-disabled_bg.gif);
+}
+
+#bid-mail-webmail {
+  background-image: url(../../images/btn_mail-webmail_bg.gif);
+}
+
+#bid-mail-webmail-disabled {
+  background-image: url(../../images/btn_mail-webmail-disabled_bg.gif);
+}
+
+#bid-subdomain-new-disabled {
+  background-image: url(../../images/btn_subdomain-new-disabled_bg.gif);
+}
+
+#bid-task-new-disabled {
+  background-image: url(../../images/btn_task-new-disabled_bg.gif);
+}
+
+#bid-blocked-domains {
+  background-image: url(../../images/btn_blocked-domains_bg.gif);
+}
+
+#bid-white-list {
+  background-image: url(../../images/btn_white-list_bg.gif);
+}
+
+#bid-blocked-domain-add {
+  background-image: url(../../images/btn_blocked-domain-add_bg.gif);
+}
+
+#bid-white-list-add {
+  background-image: url(../../images/btn_white-list-add_bg.gif);
+}
+
+#bid-event-handler-add {
+  background-image: url(../../images/btn_event-handler-add_bg.gif);
+}
+
+#bid-eventmgr {
+  background-image: url(../../images/btn_eventmgr_bg.gif);
+}
+
+#bid-eventmgr-disabled {
+  background-image: url(../../images/btn_eventmgr-disabled_bg.gif);
+}
+
+#bid-skins {
+  background-image: url(../../images/btn_skins_bg.gif);
+}
+
+#bid-skin-add {
+  background-image: url(../../images/btn_skin-add_bg.gif);
+}
+
+#bid-skin-manual {
+  background-image: url(../../images/btn_skin-manual_bg.gif);
+}
+
+#bid-skin-manual-disabled {
+  background-image: url(../../images/btn_skin-manual-disabled_bg.gif);
+}
+
+#bid-skin-replace {
+  background-image: url(../../images/btn_skin-replace_bg.gif);
+}
+
+#bid-skin-replace-disabled {
+  background-image: url(../../images/btn_skin-replace-disabled_bg.gif);
+}
+
+#bid-login-vzpp {
+  background-image: url(../../images/btn_login_vzpp_bg.gif);
+}
+
+#bid-autoinstaller {
+  background-image: url(../../images/btn_autoinstaller_bg.gif);
+}
+
+#bid-autoinstaller-disabled {
+  background-image: url(../../images/btn_autoinstaller-disabled_bg.gif);
+}
+
+#bid-postgre-sql {
+  background-image: url(../../images/btn_postgre_sql_bg.gif);
+}
+
+#bid-postgre-sql-disabled {
+  background-image: url(../../images/btn_postgre_sql-disabled_bg.gif);
+}
+
+#bid-desktop-presets-upload,
+#bid-additional-key-upload,
+#bid-key-upload,
+#bid-upload {
+  background-image: url(../../images/btn_upload-object_bg.gif);
+}
+
+#bid-additional-key-upload-disabled {
+  background-image: url(../../images/btn_upload-object-disabled_bg.gif);
+}
+
+#bid-additional-key-remove,
+#bid-additional-key-remove {
+  background-image: url(../../images/btn_remove-object_bg.gif);
+}
+
+#bid-additional-key-remove-disabled,
+#bid-additional-key-remove-disabled {
+  background-image: url(../../images/btn_remove-object-disabled_bg.gif);
+}
+
+#bid-mail-drweb {
+  background-image: url(../../images/btn_mail-drweb_bg.gif);
+}
+
+#bid-mail-drweb-disabled {
+  background-image: url(../../images/btn_mail-drweb-disabled_bg.gif);
+}
+
+#bid-sshterm {
+  background-image: url(../../images/btn_sshterm_bg.gif);
+}
+
+#bid-sshterm-disabled {
+  background-image: url(../../images/btn_sshterm-disabled_bg.gif);
+}
+
+#bid-key-buyonline-addons {
+  background-image: url(../../images/btn_key-buyonline-addons_bg.gif);
+}
+
+#bid-key-buyonline-new,
+#bid-key-buyonline-upgrades {
+  background-image: url(../../images/btn_key-buyonline-upgrades_bg.gif);
+}
+
+#bid-additional-key-install {
+  background-image: url(../../images/btn_add-services_bg.gif);
+}
+#bid-additional-key-install-disabled {
+  background-image: url(../../images/btn_add-services-disabled_bg.gif);
+}
+
+#bid-additional-key-revert {
+  background-image: url(../../images/btn_key-revert_bg.gif);
+}
+#bid-additional-key-revert-disabled {
+  background-image: url(../../images/btn_key-revert-disabled_bg.gif);
+}
+
+#bid-additional-key-update,
+#bid-key-update {
+  background-image: url(../../images/btn_key-update_bg.gif);
+}
+
+#bid-migration-manager {
+  background-image: url(../../images/btn_migration-manager_bg.gif);
+}
+
+#bid-migration-manager-disabled {
+  background-image: url(../../images/btn_migration-manager-disabled_bg.gif);
+}
+
+#bid-report-auto {
+  background-image: url(../../images/btn_report-auto_bg.gif);
+}
+
+#bid-report-auto-new {
+  background-image: url(../../images/btn_report-auto-new_bg.gif);
+}
+
+#bid-preview {
+  background-image: url(../../images/btn_preview_bg.gif);
+}
+
+#bid-preview-disabled {
+  background-image: url(../../images/btn_preview-disabled_bg.gif);
+}
+
+#bid-key-revert {
+  background-image: url(../../images/btn_key-revert_bg.gif);
+}
+
+#bid-key-revert-disabled {
+  background-image: url(../../images/btn_key-revert-disabled_bg.gif);
+}
+
+#bid-ftp-ctrl,
+#bid-ftp-account {
+  background-image: url(../../images/btn_ftp-account_bg.gif);
+}
+
+#bid-ftp-ctrl-disabled,
+#bid-ftp-account-disabled {
+  background-image: url(../../images/btn_ftp-account-disabled_bg.gif);
+}
+
+#bid-cron-backup {
+  background-image: url(../../images/btn_cron-backup_bg.gif);
+}
+
+#bid-cron-backup-disabled {
+  background-image: url(../../images/btn_cron-backup-disabled_bg.gif);
+}
+
+
+
+/* ---------- 7.5  --------- */
+
+#bid-aspdotnet {
+  background-image: url(../../images/btn_aspdotnet_bg.gif);
+}
+
+#bid-aspdotnet-disabled {
+  background-image: url(../../images/btn_aspdotnet-disabled_bg.gif);
+}
+
+#bid-icf {
+  background-image: url(../../images/btn_icf_bg.gif);
+}
+
+#bid-icf-disabled {
+  background-image: url(../../images/btn_icf-disabled_bg.gif);
+}
+
+#bid-auto-updates {
+  background-image: url(../../images/btn_auto-updates_bg.gif);
+}
+
+#bid-virtualdirs {
+  background-image: url(../../images/btn_virtualdirs_bg.gif);
+}
+
+#bid-virtualdirs-disabled {
+  background-image: url(../../images/btn_virtualdirs-disabled_bg.gif);
+}
+
+#bid-virtualdir-add {
+  background-image: url(../../images/btn_virtualdir-add_bg.gif);
+}
+
+#bid-virtualdir-add-disabled {
+  background-image: url(../../images/btn_virtualdir-add-disabled_bg.gif);
+}
+
+#bid-mimetypes {
+  background-image: url(../../images/btn_mimetypes_bg.gif);
+}
+
+#bid-mimetypes-disabled {
+  background-image: url(../../images/btn_mimetypes-disabled_bg.gif);
+}
+
+#bid-mimetype-new {
+  background-image: url(../../images/btn_mimetype-new_bg.gif);
+}
+
+#bid-performance {
+  background-image: url(../../images/btn_performance_bg.gif);
+}
+
+#bid-performance-disabled {
+  background-image: url(../../images/btn_performance-disabled_bg.gif);
+}
+
+#bid-domain-aliases {
+  background-image: url(../../images/btn_domain-aliases_bg.gif);
+}
+
+#bid-domain-alias-add {
+  background-image: url(../../images/btn_domain-alias-add_bg.gif);
+}
+
+#bid-domain-alias-add-disabled {
+  background-image: url(../../images/btn_domain-alias-add-disabled_bg.gif);
+}
+
+#bid-skin-manual {
+  background-image: url(../../images/btn_skin-manual_bg.gif);
+}
+
+#bid-defaultcomponents {
+  background-image: url(../../images/btn_defaultcomponents_bg.gif);
+}
+
+#bid-tsclient {
+  background-image: url(../../images/btn_tsclient_bg.gif);
+}
+
+#bid-tsclient-disabled {
+  background-image: url(../../images/btn_tsclient-disabled_bg.gif);
+}
+
+#bid-rootwebadmin {
+  background-image: url(../../images/btn_rootwebadmin_bg.gif);
+}
+
+#bid-rootwebadmin-disabled {
+  background-image: url(../../images/btn_rootwebadmin-disabled_bg.gif);
+}
+
+#bid-hotlinkprotection {
+  background-image: url(../../images/btn_hotlink_bg.gif);
+}
+
+#bid-hotlinkprotection-disabled {
+  background-image: url(../../images/btn_hotlink-disabled_bg.gif);
+}
+
+#bid-iis-app-pool-disabled {
+  background-image: url(../../images/btn_iis-app-pool-disabled_bg.gif);
+}
+
+#bid-iis-app-pool {
+  background-image: url(../../images/btn_iis-app-pool_bg.gif);
+}
+
+#bid-recycle-disabled {
+  background-image: url(../../images/btn_recycle-disabled_bg.gif);
+}
+
+#bid-recycle {
+  background-image: url(../../images/btn_recycle_bg.gif);
+}
+
+#bid-shared-ssl-disabled {
+  background-image: url(../../images/btn_shared-ssl-disabled_bg.gif);
+}
+
+#bid-shared-ssl {
+  background-image: url(../../images/btn_shared-ssl_bg.gif);
+}
+
+#bid-start-disabled {
+  background-image: url(../../images/btn_start-disabled_bg.gif);
+}
+
+#bid-start {
+  background-image: url(../../images/btn_start_bg.gif);
+}
+
+#bid-stop-disabled {
+  background-image: url(../../images/btn_stop-disabled_bg.gif);
+}
+
+#bid-stop {
+  background-image: url(../../images/btn_stop_bg.gif);
+}
+
+#bid-rootwebadmin-mssql {
+  background-image: url(../../images/btn_rootwebadmin-mssql_bg.gif);
+}
+
+#bid-rootwebadmin-mssql-disabled {
+  background-image: url(../../images/btn_rootwebadmin-mssql-disabled_bg.gif);
+}
+
+#bid-packages-new {
+  background-image: url(../../images/btn_packages-new_bg.gif);
+}
+
+#bid-packages-new-disabled {
+  background-image: url(../../images/btn_packages-new-disabled_bg.gif);
+}
+
+#bid-starterkit {
+  background-image: url(../../images/btn_starterkit_bg.gif);
+}
+
+#bid-starterkit-disabled {
+  background-image: url(../../images/btn_starterkit-disabled_bg.gif);
+}
+
+#bid-antivirus {
+  background-image: url(../../images/btn_antivirus_bg.gif);
+}
+
+#bid-antivirus-disabled {
+  background-image: url(../../images/btn_antivirus-disabled_bg.gif);
+}
+
+#bid-protect {
+  background-image: url(../../images/btn_protect_bg.gif);
+}
+#bid-protect-disabled {
+  background-image: url(../../images/btn_protect-disabled_bg.gif);
+}
+
+#bid-unprotect {
+  background-image: url(../../images/btn_unprotect_bg.gif);
+}
+#bid-unprotect-disabled {
+  background-image: url(../../images/btn_unprotect-disabled_bg.gif);
+}
+
+#bid-errordoc-add {
+  background-image: url(../../images/btn_errordoc-add_bg.gif);
+}
+#bid-errordoc-add-disabled {
+  background-image: url(../../images/btn_errordoc-add-disabled_bg.gif);
+}
+
+#bid-webdirs {
+  background-image: url(../../images/btn_webdirs_bg.gif);
+}
+#bid-webdirs-disabled {
+  background-image: url(../../images/btn_webdirs-disabled_bg.gif);
+}
+
+#bid-rule-add {
+  background-image: url(../../images/btn_rule-add_bg.gif);
+}
+#bid-rule-add-disabled {
+  background-image: url(../../images/btn_rule-add-disabled_bg.gif);
+}
+
+#bid-panic {
+  background-image: url(../../images/btn_panic_bg.gif);
+}
+#bid-panic-disabled {
+  background-image: url(../../images/btn_panic-disabled_bg.gif);
+}
+
+#bid-logoff {
+  background-image: url(../../images/btn_logoff_bg.gif);
+}
+#bid-logoff-disabled {
+  background-image: url(../../images/btn_logoff-disabled_bg.gif);
+}
+
+#bid-disconnect {
+  background-image: url(../../images/btn_disconnect_bg.gif);
+}
+#bid-disconnect-disabled {
+  background-image: url(../../images/btn_disconnect-disabled_bg.gif);
+}
+
+#bid-pd-user-new {
+  background-image: url(../../images/btn_user-new_bg.gif);
+}
+#bid-pd-user-new-disabled {
+  background-image: url(../../images/btn_user-new-disabled_bg.gif);
+}
+
+#bid-dnsrecord-add {
+  background-image: url(../../images/btn_subdomain-new_bg.gif);
+}
+#bid-dnsrecord-add-disabled {
+  background-image: url(../../images/btn_subdomain-new-disabled_bg.gif);
+}
+
+#bid-server-apps {
+  background-image: url(../../images/btn_siteapp-pool_bg.gif);
+}
+#bid-server-apps-disabled {
+  background-image: url(../../images/btn_siteapp-pool-disabled_bg.gif);
+}
+
+#bid-set-skin {
+  background-image: url(../../images/btn_set-skin_bg.gif);
+}
+#bid-set-skin-disabled {
+  background-image: url(../../images/btn_set-skin-disabled_bg.gif);
+}
+
+#bid-config-add {
+  background-image: url(../../images/btn_config-add_bg.gif);
+}
+#bid-config-add-disabled {
+  background-image: url(../../images/btn_config-add-disabled_bg.gif);
+}
+
+#bid-cs-map-add {
+  background-image: url(../../images/btn_cs-map-add_bg.gif);
+}
+#bid-cs-map-add-disabled {
+  background-image: url(../../images/btn_cs-map-add-disabled_bg.gif);
+}
+
+#bid-cs-maps {
+  background-image: url(../../images/btn_cs-maps_bg.gif);
+}
+#bid-cs-maps-disabled {
+  background-image: url(../../images/btn_cs-maps-disabled_bg.gif);
+}
+
+#bid-acronis {
+  background-image: url(../../images/btn_acronis_bg.gif);
+}
+#bid-acronis-disabled {
+  background-image: url(../../images/btn_acronis-disabled_bg.gif);
+}
+
+.toolsArea #bid-backup-now {
+  background-image: url(../../images/btn_backup-now_bg.gif);
+}
+
+.toolsArea #bid-backup-now-disabled {
+  background-image: url(../../images/btn_backup-now-disabled_bg.gif);
+}
+
+#bid-backup-schedule {
+  background-image: url(../../images/btn_cron-backup_bg.gif);
+}
+
+#bid-backup-schedule-disabled {
+  background-image: url(../../images/btn_cron-backup-disabled_bg.gif);
+}
+
+#bid-acl-address-add {
+  background-image: url(../../images/btn_acl-address-add_bg.gif);
+}
+
+#bid-odbc-dsn-add {
+  background-image: url(../../images/btn_odbc-dsn-add_bg.gif);
+}
+#bid-odbc-dsn-add-disabled {
+  background-image: url(../../images/btn_odbc-dsn-add-disabled_bg.gif);
+}
+
+#bid-mpc {
+  background-image: url(../../images/btn_mpc_bg.gif);
+}
+
+#bid-mpc-disabled {
+  background-image: url(../../images/btn_mpc-disabled_bg.gif);
+}
+
+#bid-change-version {
+  background-image: url(../../images/btn_preferences_bg.gif);
+}
+#bid-change-version-disabled {
+  background-image: url(../../images/btn_preferences-disabled_bg.gif);
+}
+
+#bid-restore-default {
+  background-image: url(../../images/btn_logrotation_bg.gif);
+}
+#bid-restore-default-disabled {
+  background-image: url(../../images/btn_logrotation-disabled_bg.gif);
+}
+
+/* dashboard */
+
+#bid-close-dBox {
+  background-image: url('../../images/btn_close-dBox_bg.gif');
+}
+#bid-hide-dBox {
+  background-image: url('../../images/btn_hide-dBox_bg.gif');
+}
+#bid-show-dBox {
+  background-image: url('../../images/btn_show-dBox_bg.gif');
+}
+
+/* product news */
+
+#bid-whats-new-full span {
+  background-image: url('../../icons/file_text.gif');
+}
+
+#bid-news-dismiss span {
+  background-image: url('../../images/btn_hide-toolbar_bg.gif');
+}
+
+/* ----------- desktop ---------- */
+.dBoxFooterLayout #bid-server-preferences span {
+  background-image: url(../../images/nav_server.gif);
+}
+
+.dBoxFooterLayout #bid-statistics span {
+  background-image: url(../../images/btn_stats_bg.gif);
+}
+
+.dBoxFooterLayout #bid-custom-button-new span {
+  background-image: url(../../images/nav_custom_btn.gif);
+}
+
+#bid-desktop-customize span {
+  background-image: url(../../images/btn_customize_bg.gif);
+}
+
+#bid-shortcut-add span {
+  background-image: url(../../images/btn_setup-cert_bg.gif);
+}
+
+#bid-shortcut-edit span {
+  background-image: url(../../icons/edit_text.gif);
+}
+
+#bid-favorite-add span {
+  background-image: url(../../images/btn_set-as-default_bg.gif);
+}
+
+#bid-favorite-edit span {
+  background-image: url(../../icons/edit_text.gif);
+}
+
+/* ----------- hiding controls interface button ---------- */
+
+#bid-interface-management {
+  background-image: url(../../images/btn_interface-management_bg.gif);
+}
+
+
+#bid-interface-management-disabled {
+  background-image: url(../../images/btn_interface-management-disabled_bg.gif);
+}
+
+/* ---------- small icon buttons  --------- */
+
+#bid-sa-learn-as-spam span {
+  background-image: url(../../icons/spamfilter_on.gif);
+}
+
+#bid-sa-learn-as-nonspam span {
+  background-image: url(../../images/btn_default-cert_bg.gif);
+}
+
+#bid-sa-forget span {
+  background-image: url(../../images/btn_setup-cert_bg.gif);
+}
+
+#bid-hide-toolbar span {
+  background-image: url(../../images/btn_hide-toolbar_bg.gif);
+}
+
+#bid-count-size span {
+  background-image: url(../../images/btn_count-size_bg.gif);
+}
+
+#bid-on-off span {
+  background-image: url(../../images/btn_on-off_bg.gif);
+}
+
+#bid-on-off-disabled span {
+  background-image: url(../../images/btn_on-off-disabled_bg.gif);
+}
+
+#bid-search span {
+  background-image: url(../../images/btn_search_bg.gif);
+}
+
+#bid-show-all span,
+#bid-show-all-disabled span {
+  background-image: url(../../images/btn_show-all_bg.gif);
+}
+
+#bid-service-showall span,
+#bid-show-aliases span,
+#bid-show-domainaliases span,
+#bid-show-subdomains span {
+  background-image: url(../../images/btn_show_bg.gif);
+}
+
+#bid-service-hideall span,
+#bid-hide-aliases span,
+#bid-hide-domainaliases span,
+#bid-hide-subdomains span {
+  background-image: url(../../images/btn_hide_bg.gif);
+}
+
+#bid-global-changes span {
+  background-image: url(../../images/btn_global-changes_bg.gif);
+}
+
+#bid-remove-selected span {
+  background-image: url(../../images/btn_remove-selected_bg.gif);
+}
+
+#bid-customize span {
+  background-image: url(../../images/btn_customize_bg.gif);
+}
+
+#bid-send-by-email span {
+  background-image: url(../../images/btn_send-by-mail_bg.gif);
+}
+
+#bid-send-by-email {
+  padding-left: 7px;
+}
+
+#bid-send-mail span  {
+  background-image: url(../../images/btn_send-by-mail_bg.gif);
+}
+
+#bid-print span {
+  background-image: url(../../images/btn_print_bg.gif);
+}
+
+#bid-create-file {
+  background-image: url(../../images/btn_add_bg.gif);
+}
+#bid-create-file-disabled {
+  background-image: url(../../images/btn_add-disabled_bg.gif);
+}
+
+#bid-create-dir {
+  background-image: url(../../images/btn_dir-add_bg.gif);
+}
+
+#bid-create-dir-disabled {
+  background-image: url(../../images/btn_dir-add-disabled_bg.gif);
+}
+
+#bid-copy-move span {
+  background-image: url(../../images/btn_copy-move_bg.gif);
+}
+
+#bid-touch span {
+  background-image: url(../../images/btn_touch_bg.gif);
+}
+
+#bid-attach span {
+  background-image: url(../../images/btn_attach_bg.gif);
+}
+
+#bid-install span {
+  background-image: url(../../images/btn_install_bg.gif);
+}
+
+#bid-set-as-default span {
+  background-image: url(../../images/btn_set-as-default_bg.gif);
+}
+
+#bid-ok button {
+  background-image: url(../../images/btn_ok_bg.gif);
+  padding-left: 8px;
+}
+
+#bid-cancel button {
+  background-image: url(../../images/btn_cancel_bg.gif);
+  padding-left: 10px;
+}
+
+#bid-set button {
+  background-image: url(../../images/btn_ok_bg.gif);
+  padding-left: 8px;	
+}
+
+#bid-up-level span {
+  background-image: url(../../images/btn_uplevel_bg.gif);
+}
+
+.listArea .buttons #bid-login span {
+  background-image: url(../../images/btn_login_bg.gif);
+}
+
+#bid-task-run-now button,
+#bid-dns-add button,
+#bid-pd-user-new button,
+#bid-mail-resp-attach-add button {
+  background-image: url(../../images/btn_add-big_bg.gif);
+  width: 140px;
+  height: 21px;		
+}
+
+#bid-mail-resp-attach-add span {
+  display: none;
+}
+
+.listArea .buttons #bid-refresh span {
+  background-image: url(../../images/btn_refresh-list_bg.gif);
+}
+
+.toolsArea #bid-refresh {
+  background-image: url(../../images/btn_refresh_bg.gif);
+}
+
+.listArea .buttons #bid-setup span {
+  background-image: url(../../images/btn_setup-cert_bg.gif);
+}
+
+.toolsArea #bid-setup,
+.dBox #bid-setup,
+.doubleListSelect #bid-setup {
+  background-image: url(../../images/btn_setup_bg.gif);
+}
+
+.toolsArea #bid-setup-disabled {
+  background-image: url(../../images/btn_setup-disabled_bg.gif);
+}
+
+.listArea .buttons #bid-dbuser-default span,
+.listArea .buttons #bid-default span {
+  background-image: url(../../images/btn_default-cert_bg.gif);
+}
+
+.toolsArea #bid-default {
+  background-image: url(../../images/btn_repair-ip_bg.gif);
+}
+
+.toolsArea #bid-default-disabled {
+  background-image: url(../../images/btn_repair-ip-disabled_bg.gif);
+}
+
+#bid-logoff-selected span {
+  background-image: url(../../images/btn_logoff-selected_bg.gif);
+}
+
+#bid-disconnect-selected span {
+  background-image: url(../../images/btn_disconnect-selected_bg.gif);
+}
+
+#bid-hide-additional-users span {
+  background-image: url(../../images/btn_hide_bg.gif);
+}
+
+#bid-show-additional-users span {
+  background-image: url(../../images/btn_show_bg.gif);
+}
+
+#bid-check-permissions span {
+  background-image: url(../../images/btn_check-permissions_bg.gif);
+}
+
+/*  ------   add new buttons here  -----  */
+
+#bid-test-dsn span {
+  background-image: url(../../icons/connection_on.gif);
+}
+
+#bid-fotolia {
+  background-image: url(../../images/btn_fotolia_bg.gif);
+}
+
+#bid-fotolia-disabled {
+  background-image: url(../../images/btn_fotolia-disabled_bg.gif);
+}
+
+#bid-service-start span {
+background-image: url(../../icons/up.gif);
+}
+#bid-service-stop span {
+background-image: url(../../icons/down.gif);
+}
+#bid-service-restart span {
+background-image: url(../../icons/restart.gif);
+}
+#bid-service-disable span {
+background-image: url(../../images/btn_on-off-disabled_bg.gif);
+}
+#bid-service-manual span {
+background-image: url(../../images/btn_on-off_bg.gif);
+}
+#bid-service-auto span {
+background-image: url(../../images/btn_refresh-list_bg.gif);
+}
+
+#bid-domain-properties-edit  {
+background-image: url(../../images/btn_manage_bg.gif);
+}
+
+#bid-web-user-properties-edit  {
+  background-image: url(../../images/btn_web-users_bg.gif);
+}
+
+#bid-subdomain-properties-edit  {
+  background-image: url(../../images/btn_subdomains_bg.gif);
+}
+
+#bid-send-mass-mail {
+  background-image: url(../../images/btn_mail-redirects_bg.gif);
+}
+
+#bid-new-mass-mail-template {
+  background-image: url(../../images/btn_maillist-new_bg.gif);
+}
+
+#bid-php {
+  background-image: url(../../images/btn_php_bg.gif);
+}
+
+#bid-php-disabled {
+  background-image: url(../../images/btn_php-disabled_bg.gif);
+}
+
+#bid-mass-email {
+  background-image: url(../../images/btn_mail-group_bg.gif);
+}
+
+#bid-admin-alias {
+  background-image: url(../../images/btn_mail-groups_bg.gif);
+}
+
+#bid-new-admin-alias {
+  background-image: url(../../images/btn_new-client_bg.gif);
+}
+
+#bid-locale-add {
+  background-image: url(../../images/btn_locale-add_bg.gif);
+}
+
+#bid-interface-template-add {
+  background-image: url(../../images/btn_interface-template-add_bg.gif);
+}
+
+.buttons #bid-download {
+  background-image: none;
+}
+
+#bid-download span {
+  background-image: url(../../icons/download.gif);
+}
+
+#bid-object-enable-disable {
+  background-image: url(../../images/btn_enable-disable_bg.gif);
+}
+
+#bid-object-remove {
+  background-image: url(../../images/btn_remove-object_bg.gif);
+}
+
+.toolsArea #bid-download span {
+ background-image: none;
+}
+
+.formArea #bid-backup-now button,
+.formArea #bid-default button {
+  background-image: url(../../images/btn_add-big_bg.gif);
+  width: 140px;
+  height: 21px;
+}
+
+#bid-logo-default-disabled button,
+#bid-codepage-change-disabled button {
+  background-image: url(../../images/btn_add-big-disabled_bg.gif);
+  width: 140px;
+}
+
+#bid-change-owner span {
+  background-image: url(../../images/btn_change-owner_bg.gif);
+}
+
+#bid-search-show span  {
+  background-image: url(../../icons/search_show.gif);
+}
+
+#bid-search-hide span {
+  background-image: url(../../icons/search_hide.gif);
+}
+
+#bid-fpse-ctrl {
+  background-image: url(../../images/btn_fp_bg.gif);
+}
+
+#bid-fpse-ctrl-disabled {
+  background-image: url(../../images/btn_fp-disabled_bg.gif);
+}
+
+#bid-fpse-user-add {
+  background-image: url(../../images/btn_new-client_bg.gif);
+}
+
+#bid-fpse-user-add-disabled {
+  background-image: url(../../images/btn_new-client-disabled_bg.gif);
+}
+
+#bid-mail-redirect-disabled {
+  background-image: url(../../images/btn_mail-redirects-disabled_bg.gif);
+}
+
+#bid-mail-group-disabled {
+  background-image: url(../../images/btn_mail-group-disabled_bg.gif);
+}
+
+#bid-mail-groups-disabled {
+  background-image: url(../../images/btn_mail-groups-disabled_bg.gif);
+}
+
+
+
